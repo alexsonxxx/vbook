@@ -15,5 +15,16 @@
       "type": "novel",
       "locale": "vi_VN"
     }
+        {
+      "name": "Tiệm Truyện Chữ",
+      "author": "Alex",
+      "path": "https://github.com/alexsonxxx/vbook/raw/refs/heads/main/WikiDich/plugin.zip",
+      "version": 1,
+      "source": "https://wikicv.net/",
+      "icon": "https://github.com/alexsonxxx/vbook/raw/refs/heads/main/WikiDich/icon.png",
+      "description": "Đọc truyện trên trang Tiệm Truyện Chữ",
+      "type": "novel",
+      "locale": "vi_VN"
+    }
   ]
 }
