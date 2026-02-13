@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "Wiki Dịch",
-    "author": "vBook",
-    "version": 25,
+    "author": "Alex",
+    "version": 1,
     "source": "https://wikicv.net",
     "regexp": "(www\\.)?(.*?)wikicv\\.net/truyen/[^/]+/?$",
     "description": "WikiCV (wikicv.net) - Fake UA cho vBook để tránh bị chặn",
