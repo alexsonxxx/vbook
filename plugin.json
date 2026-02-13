@@ -1,15 +1,15 @@
-{
+  {
   "metadata": {
     "author": "Alex",
     "description": ""
   },
-  "data": [
+  "data": [ 
     {
-      "name": "Tiệm Truyện Chữ",
-      "author": "Alex",
+      "name": "MangaDex",
+      "author": "vBook",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/TiemTruyenChu/TiemTruyenChu.zip",
       "version": 1,
-      "source": "https://www.tiemtruyenchu.com/",
+      "source": "https://www.tiemtruyenchu.com",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/TiemTruyenChu/icon.png",
       "description": "Đọc truyện chữ trên Tiệm Truyện Chữ",
       "type": "novel",
