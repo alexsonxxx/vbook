@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "author": "Alex",
+    "description": ""
+  },
+  "data": [
+    {
+      "name": "Tiệm Truyện Chữ",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/TiemTruyenChu/icon.png",
+      "version": 1,
+      "source": "https://www.tiemtruyenchu.com/",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/TiemTruyenChu/icon.png",
+      "description": "Đọc truyện chữ trên Tiệm Truyện Chữ",
+      "type": "novel",
+      "locale": "vi_VN"
+    },
+  ]
+}
