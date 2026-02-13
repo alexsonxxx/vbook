@@ -1,30 +1,25 @@
 {
   "metadata": {
-    "author": "Alex",
-    "description": "Thích đọc truyện"
+    "name": "Wiki Dịch",
+    "author": "vBook",
+    "version": 25,
+    "source": "https://wikicv.net",
+    "regexp": "(www\\.)?(.*?)wikicv\\.net/truyen/[^/]+/?$",
+    "description": "WikiCV (wikicv.net) - Fake UA cho vBook để tránh bị chặn",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript"
   },
-  "data": [
-    {
-      "name": "Tiệm Truyện Chữ",
-      "author": "Alex",
-      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/TiemTruyenChu/TiemTruyenChu.zip",
-      "version": 2,
-      "source": "https://www.tiemtruyenchu.com/",
-      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/TiemTruyenChu/icon.png",
-      "description": "Đọc truyện trên trang Tiệm Truyện Chữ",
-      "type": "novel",
-      "locale": "vi_VN"
-    }
-        {
-      "name": "Wiki Dịch",
-      "author": "Alex",
-      "path": "https://github.com/alexsonxxx/vbook/raw/refs/heads/main/WikiDich/plugin.zip",
-      "version": 1,
-      "source": "https://wikicv.net/",
-      "icon": "https://github.com/alexsonxxx/vbook/raw/refs/heads/main/WikiDich/icon.png",
-      "description": "Đọc truyện trên trang wikicv",
-      "type": "novel",
-      "locale": "vi_VN"
-    }
-  ]
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "thread_num": 1,
+    "delay": 3000
+  }
 }
