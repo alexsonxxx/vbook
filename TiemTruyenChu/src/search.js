@@ -1,36 +1,55 @@
-function execute(key, page) {
+function execute(key) {
+
     load('config.js');
-    if (!page) page = "1";
+
+    if (!key) return Response.success([]);
 
     key = key.replace(/\s+/g, " ").trim();
 
-    let response = fetch(BASE_URL + "/danh-sach?q=" + encodeURIComponent(key) + "&page=" + page);
+    let keyword = encodeURIComponent(key).replace(/%20/g, "+");
 
-    if (response.ok) {
-        let doc = response.html();
-        let next = doc.select("#pagination-container .page-item.active + .page-item button.page-link").text();
+    let url = BASE_URL + "/danh-sach?keyword=" + keyword + "&ajax=1";
 
-        let list = [];
-        doc.select("#story-list-container .story-item").forEach(item => {
-            let a = item.select("a.story-title").first();
-            if (!a) return;
+    let res = fetch(url, {
+        headers: {
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "application/json",
+            "Referer": BASE_URL
+        }
+    });
 
-            let link = a.attr("href");
-            let name = a.text().replace(/\s+/g, " ").trim();
-            let cover = item.select("img.story-poster").first().attr("src");
-            let desc = item.select(".story-desc").text().trim();
+    if (!res || !res.ok) return Response.success([]);
 
-            list.push({
-                name: name,
-                link: link,
-                cover: cover,
-                description: desc,
-                host: BASE_URL
-            });
-        });
-
-        return Response.success(list, next);
+    let json;
+    try {
+        json = res.json();
+    } catch (e) {
+        return Response.success([]);
     }
 
-    return null;
+    let list = [];
+
+    if (!json || !json.stories) return Response.success(list);
+
+    json.stories.forEach(item => {
+
+        let link = BASE_URL + "/truyen/" + item.id;
+
+        let cover = item.poster || "";
+        if (cover.startsWith("/")) {
+            cover = BASE_URL + cover;
+        }
+
+        let desc = item.author || "";
+
+        list.push({
+            name: item.title,
+            link: link,
+            cover: cover,
+            description: desc,
+            host: BASE_URL
+        });
+    });
+
+    return Response.success(list);
 }
