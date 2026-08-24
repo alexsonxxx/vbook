@@ -18,10 +18,10 @@
     {
       "name": "TTC",
       "author": "Alex",
-      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/TIEMTRUYENCHU/plugin.zip",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/tiemtruyenchu/plugin.zip",
       "version": 1,
       "source": "https://tiemtruyenchu.cloud",
-      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/TIEMTRUYENCHU/icon.png",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/tiemtruyenchu/icon.png",
       "description": "Đọc truyện trên Tiệm Truyện Chữ",
       "type": "novel",
       "locale": "vi"
