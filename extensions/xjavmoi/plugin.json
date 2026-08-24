@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "xjavmoi",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://x.javmoi.blog",
+    "regexp": "https?:\\\\/\\\\/(?:www\\\\.)?x\\\\.javmoi\\\\.blog\\\\/",
+    "description": "Xem phim JAV mới cập nhật liên tục — JAVMới (x.javmoi.blog)",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "video",
+    "tag": "18+"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  }
+}

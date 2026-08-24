@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "zettruyen",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://www.zettruyen.work",
+    "regexp": "https?:\\/\\/(?:www\\.)?zettruyen\\.work\\/truyen-tranh\\/[^\\/]+(?:\\/chuong-\\d+)?",
+    "description": "zettruyen extension for VBook",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
