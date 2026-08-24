@@ -1,29 +1,120 @@
 {
   "metadata": {
     "author": "Alex",
-    "description": ""
+    "description": "@🔻@"
   },
   "data": [
     {
-      "name": "Tiệm Truyện Chữ",
+      "name": "phimmoi",
       "author": "Alex",
-      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/TiemTruyenChu/TiemTruyenChu.zip",
-      "version": 3,
-      "source": "https://www.tiemtruyenchu.com/",
-      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/TiemTruyenChu/icon.png",
-      "description": "Đọc truyện chữ trên Tiệm Truyện Chữ",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/phimmoi/plugin.zip",
+      "version": 1,
+      "source": "https://phimmoi.film",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/phimmoi/icon.png",
+      "description": "Xem phim HD Vietsub/Thuyết minh từ PhimMoi (phimmoi.film)",
+      "type": "video",
+      "locale": "vi_VN"
+    },
+    {
+      "name": "TTC",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/TIEMTRUYENCHU/plugin.zip",
+      "version": 1,
+      "source": "https://tiemtruyenchu.cloud",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/TIEMTRUYENCHU/icon.png",
+      "description": "Đọc truyện trên Tiệm Truyện Chữ",
+      "type": "novel",
+      "locale": "vi"
+    },
+    {
+      "name": "truyendichai",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/truyendichai/plugin.zip",
+      "version": 1,
+      "source": "https://truyendich.fit",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/truyendichai/icon.png",
+      "description": "Đọc truyện trên trang TruyenDichAI - Truyện Dịch AI",
       "type": "novel",
       "locale": "vi_VN"
     },
-   {
-      "name": "WiKiCV",
+    {
+      "name": "wikicv",
       "author": "Alex",
-      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/WikiDich/plugin.zip",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/wikicv/plugin.zip",
       "version": 1,
-      "source": "https://www.wikicv.net",
-      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/refs/heads/main/WikiDich/icon.png",
-      "description": "Đọc truyện chữ trên WIkicv",
+      "source": "https://wikicv.com",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/wikicv/icon.png",
+      "description": "wikicv extension for VBook",
       "type": "novel",
+      "locale": "vi_VN"
+    },
+    {
+      "name": "uureadtw",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/uureadtw/plugin.zip",
+      "version": 1,
+      "source": "https://www.uuread.tw",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/uureadtw/icon.png",
+      "description": "Đọc truyện tiếng Trung phồn thể (玄幻, 仙俠, 都市...) trên uu看書",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "Viet69",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/viet69/plugin.zip",
+      "version": 1,
+      "source": "https://viet69.be",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/viet69/icon.png",
+      "description": "Phim sex Việt Nam tổng hợp từ viet69.be",
+      "type": "video",
+      "locale": "vi_VN",
+      "tag": "18+"
+    },
+    {
+      "name": "vsmov",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/vsmov/plugin.zip",
+      "version": 1,
+      "source": "http://smov.com",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/vsmov/icon.png",
+      "description": "Xem phim từ VSMOV.COM - Nguồn API Phim Miễn Phí",
+      "type": "video",
+      "locale": "vi_VN"
+    },
+    {
+      "name": "javsub",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/javsub/plugin.zip",
+      "version": 1,
+      "source": "https://javsub.blog",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/heads/main/main/extensions/javsub/icon.png",
+      "description": "Phim JAV phụ đề trên javsub.blog",
+      "type": "video",
+      "locale": "vi_VN",
+      "tag": "18+"
+    },
+    {
+      "name": "xjavmoi",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/xjavmoi/plugin.zip",
+      "version": 1,
+      "source": "https://x.javmoi.blog",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/xjavmoi/icon.png",
+      "description": "Xem phim JAV mới cập nhật liên tục — JAVMới (x.javmoi.blog)",
+      "type": "video",
+      "locale": "vi_VN",
+      "tag": "18+"
+    },
+    {
+      "name": "zettruyen",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/zettruyen/plugin.zip",
+      "version": 1,
+      "source": "http://smov.com/",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/zettruyen/icon.png",
+      "description": "Đọc truyện manga từ zettruyen",
+      "type": "comic",
       "locale": "vi_VN"
     }
   ]
