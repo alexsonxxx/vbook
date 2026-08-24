@@ -1,0 +1,57 @@
+// genre.js — Danh sách thể loại: 6 category menu + toàn bộ tag cloud của site
+// (đã extract từ .tagcloud trên trang thật, loại tag trùng/không nội dung)
+// Contract: execute() → [{ title, input, script }]
+load("config.js");
+
+function execute() {
+    return Response.success([
+        { title: "Phim sex Việt mới", input: BASE_URL + "/sex-viet/", script: "gen.js" },
+        { title: "Sinh viên", input: BASE_URL + "/sinh-vien/", script: "gen.js" },
+        { title: "Teen", input: BASE_URL + "/teen/", script: "gen.js" },
+        { title: "Camera", input: BASE_URL + "/camera/", script: "gen.js" },
+        { title: "BDSM", input: BASE_URL + "/bdsm/", script: "gen.js" },
+        { title: "Thủ dâm", input: BASE_URL + "/thu-dam/", script: "gen.js" },
+        { title: "BJ", input: BASE_URL + "/tag/bj/", script: "gen.js" },
+        { title: "blowjob", input: BASE_URL + "/tag/blowjob/", script: "gen.js" },
+        { title: "bú cu", input: BASE_URL + "/tag/bu-cu/", script: "gen.js" },
+        { title: "buom hong", input: BASE_URL + "/tag/buom-hong/", script: "gen.js" },
+        { title: "buom mup", input: BASE_URL + "/tag/buom-mup/", script: "gen.js" },
+        { title: "bướm non", input: BASE_URL + "/tag/buom-non/", script: "gen.js" },
+        { title: "chân dài", input: BASE_URL + "/tag/chan-dai/", script: "gen.js" },
+        { title: "chay nuoc", input: BASE_URL + "/tag/chay-nuoc/", script: "gen.js" },
+        { title: "chim to", input: BASE_URL + "/tag/chim-to/", script: "gen.js" },
+        { title: "chơi tập thể", input: BASE_URL + "/tag/choi-tap-the/", script: "gen.js" },
+        { title: "Clip", input: BASE_URL + "/tag/clip/", script: "gen.js" },
+        { title: "Clip sex", input: BASE_URL + "/tag/clip-sex/", script: "gen.js" },
+        { title: "cực phẩm", input: BASE_URL + "/tag/cuc-pham/", script: "gen.js" },
+        { title: "cưỡi ngựa", input: BASE_URL + "/tag/cuoi-ngua/", script: "gen.js" },
+        { title: "da trắng", input: BASE_URL + "/tag/da-trang/", script: "gen.js" },
+        { title: "dam thuy", input: BASE_URL + "/tag/dam-thuy/", script: "gen.js" },
+        { title: "dit em", input: BASE_URL + "/tag/dit-em/", script: "gen.js" },
+        { title: "doggy", input: BASE_URL + "/tag/doggy/", script: "gen.js" },
+        { title: "em dâm", input: BASE_URL + "/tag/em-dam/", script: "gen.js" },
+        { title: "genz", input: BASE_URL + "/tag/genz/", script: "gen.js" },
+        { title: "hàng ngon", input: BASE_URL + "/tag/hang-ngon/", script: "gen.js" },
+        { title: "khẩu dâm", input: BASE_URL + "/tag/khau-dam/", script: "gen.js" },
+        { title: "không bao", input: BASE_URL + "/tag/khong-bao/", script: "gen.js" },
+        { title: "len lut", input: BASE_URL + "/tag/len-lut/", script: "gen.js" },
+        { title: "máy bay bà già", input: BASE_URL + "/tag/may-bay-ba-gia/", script: "gen.js" },
+        { title: "mbbg", input: BASE_URL + "/tag/mbbg/", script: "gen.js" },
+        { title: "mình dây", input: BASE_URL + "/tag/minh-day/", script: "gen.js" },
+        { title: "móc cua", input: BASE_URL + "/tag/moc-cua/", script: "gen.js" },
+        { title: "mông to", input: BASE_URL + "/tag/mong-to/", script: "gen.js" },
+        { title: "non tơ", input: BASE_URL + "/tag/non-to/", script: "gen.js" },
+        { title: "nữ sinh", input: BASE_URL + "/tag/nu-sinh/", script: "gen.js" },
+        { title: "public", input: BASE_URL + "/tag/public/", script: "gen.js" },
+        { title: "rên la", input: BASE_URL + "/tag/ren-la/", script: "gen.js" },
+        { title: "sgbb", input: BASE_URL + "/tag/sgbb/", script: "gen.js" },
+        { title: "sugar baby", input: BASE_URL + "/tag/sugar-baby/", script: "gen.js" },
+        { title: "threesome", input: BASE_URL + "/tag/threesome/", script: "gen.js" },
+        { title: "vét máng", input: BASE_URL + "/tag/vet-mang/", script: "gen.js" },
+        { title: "vợ dâm", input: BASE_URL + "/tag/vo-dam/", script: "gen.js" },
+        { title: "vu hong", input: BASE_URL + "/tag/vu-hong/", script: "gen.js" },
+        { title: "vu non", input: BASE_URL + "/tag/vu-non/", script: "gen.js" },
+        { title: "vú to", input: BASE_URL + "/tag/vu-to/", script: "gen.js" },
+        { title: "xuất tinh", input: BASE_URL + "/tag/xuat-tinh/", script: "gen.js" }
+    ]);
+}

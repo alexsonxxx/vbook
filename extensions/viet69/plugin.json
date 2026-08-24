@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "Viet69",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://viet69.be",
+    "regexp": "https?:\\/\\/viet69\\.be\\/(?:bai-viet\\/)?(?!tag\\/|page\\/|author\\/|community-profile\\/|my-videos\\/|lienhe\\/|bai-viet\\/?$|teen\\/?$|camera\\/?$|bdsm\\/?$|thu-dam\\/?$|sinh-vien\\/?$|sex-viet\\/?$)[a-z0-9-]+\\/?$",
+    "description": "Phim sex Việt Nam tổng hợp từ viet69.be",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "video",
+    "tag": "18+"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  }
+}

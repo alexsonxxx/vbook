@@ -1,0 +1,30 @@
+{
+    "metadata": {
+        "name": "wikicv",
+        "author": "Alex",
+        "version": 1,
+        "source": "https://wikicv.org",
+        "regexp": "https?:\\/\\/(?:www\\.)?wikicv\\.org\\/truyen\\/[^\\/]+(?:\\/[^\\/]*)?$",
+        "description": "Đọc truyện trên Wiki Dịch Tiếng Hoa (wikicv.org)",
+        "locale": "vi_VN",
+        "language": "javascript",
+        "type": "novel"
+    },
+    "config": {
+        "wikicvCookie": {
+            "title": "Cookie wikicv (tùy chọn)",
+            "mode": "input",
+            "format": "text",
+            "default": ""
+        }
+    },
+    "script": {
+        "home": "home.js",
+        "genre": "genre.js",
+        "detail": "detail.js",
+        "search": "search.js",
+        "page": "page.js",
+        "toc": "toc.js",
+        "chap": "chap.js"
+    }
+}
