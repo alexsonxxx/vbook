@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "name": "uu看書",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://www.uuread.tw",
+    "description": "Đọc truyện tiếng Trung phồn thể (玄幻, 仙俠, 都市...) trên uu看書",
+    "locale": "zh-Hant",
+    "regexp": "uuread\\.tw/\\d+/?",
+    "type": "novel",
+    "nsfw": false
+  },
+  "script": {
+    "home": "home.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "subtitle": "Chọn mirror",
+      "default": "https://www.uuread.tw",
+      "values": ["https://www.uuread.tw"],
+      "mode": "select",
+      "format": "single"
+    }
+  }
+}
