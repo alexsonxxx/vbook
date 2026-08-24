@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "name": "TTC",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://tiemtruyenchu.cloud",
+    "regexp": "tiemtruyenchu\\.cloud",
+    "description": "Đọc truyện trên TiemTruyenChu",
+    "locale": "vi",
+    "language": "javascript",
+    "type": "novel",
+    "encrypt": true
+  },
+  "config": {
+    "TTC_USERNAME": {
+      "title": "Tên đăng nhập TTC",
+      "subtitle": "Tên tài khoản TTC",
+      "mode": "input",
+      "format": "text",
+      "default": ""
+    },
+    "TTC_PASSWORD": {
+      "title": "Mật khẩu TTC",
+      "subtitle": "Mật khẩu tài khoản TTC",
+      "mode": "input",
+      "format": "text",
+      "default": ""
+    },
+    "TTC_TOKEN": {
+      "title": "Token TTC (tùy chọn)",
+      "subtitle": "Dán token nếu không muốn nhập tên đăng nhập/mật khẩu",
+      "mode": "input",
+      "format": "text",
+      "default": ""
+    }
+  },
+  "script": {
+    "home": "home.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
