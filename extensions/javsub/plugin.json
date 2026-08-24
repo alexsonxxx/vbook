@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "javsub",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://javsub.blog",
+    "regexp": "(?:www\\.)?javsub\\.blog/phim-sex/[^/]+/?$",
+    "description": "Phim JAV phụ đề trên javsub.blog",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "video",
+    "tag": "18+"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  }
+}
