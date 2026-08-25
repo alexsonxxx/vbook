@@ -75,7 +75,7 @@
       "name": "vsmov",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/vsmov/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://smov.com",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/vsmov/icon.png",
       "description": "Xem phim từ VSMOV.COM - Nguồn API Phim Miễn Phí",
