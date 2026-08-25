@@ -27,6 +27,17 @@
       "locale": "vi"
     },
     {
+      "name": "lohi2",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/lohi2/plugin.zip",
+      "version": 1,
+      "source": "https://lohi2.com",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/lohi2/icon.png",
+      "description": "Đọc truyện trên lohi2.com",
+      "type": "novel",
+      "locale": "vi"
+    },
+    {
       "name": "truyendichai",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/truyendichai/plugin.zip",
@@ -111,7 +122,7 @@
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/zettruyen/plugin.zip",
       "version": 1,
-      "source": "https://www.zettruyen.work/",
+      "source": "https://www.zettruyen.work",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/zettruyen/icon.png",
       "description": "Đọc truyện manga từ zettruyen",
       "type": "comic",
