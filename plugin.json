@@ -27,6 +27,17 @@
       "locale": "vi"
     },
     {
+      "name": "Dịch Tiếng Hoa",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/dichtienghoa/plugin.zip",
+      "version": 1,
+      "source": "https://dichtienghoa.net",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/dichtienghoa/icon.png",
+      "description": "Đọc truyện trên Dịch Tiếng Hoa.\n\nĐổi ngôn ngữ VI ZH+(Đăng Nhập):\n1. Mở trang Dịch Tiếng Hoa trong trình duyệt VBook.\n2. Nhấn nút 🌐 trong chương truyện.\n3. Bật hoặc tắt tùy chọn \"Dịch thuật\".",
+      "type": "novel",
+      "locale": "vi"
+    },     
+    {
       "name": "lohi2",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/lohi2/plugin.zip",
