@@ -22,7 +22,7 @@
       "version": 1,
       "source": "https://tiemtruyenchu.cloud",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/tiemtruyenchu/icon.png",
-      "description": "Đọc truyện trên Tiệm Truyện Chữ",
+      "description": "Đọc truyện trên Tiệm Truyện Chữ, đăng nhập bằng trình duyệt vbook hoặc điền user",
       "type": "novel",
       "locale": "vi"
     },
@@ -33,7 +33,7 @@
       "version": 1,
       "source": "https://lohi2.com",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/lohi2/icon.png",
-      "description": "Đọc truyện trên lohi2.com",
+      "description": "Đọc truyện trên lohi2.com, đăng nhập bằng trình duyệt vbook",
       "type": "novel",
       "locale": "vi"
     },
@@ -44,7 +44,7 @@
       "version": 1,
       "source": "https://truyendich.fit",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/truyendichai/icon.png",
-      "description": "Đọc truyện trên trang TruyenDichAI - Truyện Dịch AI",
+      "description": "Đọc truyện trên trang TruyenDichAI - Truyện Dịch AI, đăng nhập bằng trình duyệt vbook",
       "type": "novel",
       "locale": "vi_VN"
     },
@@ -55,7 +55,7 @@
       "version": 1,
       "source": "https://wikicv.com",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/wikicv/icon.png",
-      "description": "wikicv extension for VBook",
+      "description": "wikicv extension for VBook, đăng nhập bằng trình duyệt vbook",
       "type": "novel",
       "locale": "vi_VN"
     },
