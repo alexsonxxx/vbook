@@ -111,7 +111,7 @@
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/zettruyen/plugin.zip",
       "version": 1,
-      "source": "http://smov.com/",
+      "source": "https://www.zettruyen.work/",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/zettruyen/icon.png",
       "description": "Đọc truyện manga từ zettruyen",
       "type": "comic",
