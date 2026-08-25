@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "name": "lohi2",
+    "author": "Alex",
+    "version": 2,
+    "source": "https://lohi2.com",
+    "regexp": "https?:\\/\\/(?:www\\.)?lohi2\\.com\\/truyen\\/",
+    "description": "Đọc truyện trên LoHi",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "config": {
+    "access_token": {
+      "title": "Access Token (lấy từ cookie lohi2.com)",
+      "mode": "input",
+      "format": "text",
+      "default": ""
+    },
+    "refresh_token": {
+      "title": "Refresh Token (tùy chọn, để tự động refresh)",
+      "mode": "input",
+      "format": "text",
+      "default": ""
+    }
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
