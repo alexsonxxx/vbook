@@ -75,7 +75,7 @@
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/wikicv/plugin.zip",
       "version": 1,
-      "source": "https://wikicv.com",
+      "source": "https://wikicv.org",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/wikicv/icon.png",
       "description": "wikicv extension for VBook, đăng nhập bằng trình duyệt vbook",
       "type": "novel",
