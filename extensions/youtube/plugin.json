@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "name": "Youtube",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://www.youtube.com",
+    "description": "Tìm kiếm, xem video và livestream YouTube.",
+    "locale": "vi_VN",
+    "regexp": "(www\\.)?youtube\\.com/watch\\?v=[A-Za-z0-9_-]{11}|youtu\\.be/[A-Za-z0-9_-]{11}",
+    "type": "video",
+    "nsfw": false,
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://www.youtube.com",
+      "mode": "input",
+      "format": "text"
+    },
+    "youtube_quality": {
+      "title": "Chất lượng video",
+      "subtitle": "Tự động = HLS thích ứng (khuyên dùng). Tiết kiệm = file 360p nhẹ dữ liệu. Các mức trung gian không giữ được tiếng trên trình phát này.",
+      "values": ["Tự động", "Tiết kiệm (360p)"],
+      "mode": "select",
+      "format": "text",
+      "default": "Tự động"
+    }
+  }
+}
