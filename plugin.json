@@ -16,6 +16,17 @@
       "locale": "vi_VN"
     },
     {
+      "name": "Youtube",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/youtube/plugin.zip",
+      "version": 1,
+      "source": "https://youtube.com",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/youtube/icon.png",
+      "description": "Xem youtube)",
+      "type": "video",
+      "locale": "vi_VN"
+    },    
+    {
       "name": "TTC",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/tiemtruyenchu/plugin.zip",
