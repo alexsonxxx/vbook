@@ -11,7 +11,7 @@ load('config.js');
 //   2. ANDROID client (20.09.36 / 20.03.32) returns a single progressive
 //      360p mp4 without a visitor id — no-extra-fetch fallback.
 //   3. webview as the last resort for login/region-blocked videos.
-var API_KEY = "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8";
+var API_KEY = "";
 var YT_REFERER = "https://www.youtube.com/";
 var MAX_VIDEO_HEIGHT = 1080;
 
