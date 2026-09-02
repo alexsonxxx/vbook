@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "twkan",
+    "author": "Alex",
+    "version": 4,
+    "source": "https://twkan.com",
+    "regexp": "twkan\\.com/(txt|book)/.*?\\.html",
+    "description": "Đọc truyện chữ Trung trên twkan.com (台灣小說網 - vô quảng cáo).\n\nDanh sách: 熱門 / 完本 / 全部分類 + tìm kiếm.\n\nNếu domain bị chặn, thêm domain mới vào phần cấu hình.",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
