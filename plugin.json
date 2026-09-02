@@ -25,7 +25,18 @@
       "description": "Xem youtube)",
       "type": "video",
       "locale": "vi_VN"
-    },    
+    }, 
+     {
+      "name": "twkan",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/twkan/plugin.zip",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/twkan/icon.png",
+      "version": 1,
+      "source": "https://twkan.com",
+      "description": "Đọc truyện trên trang twkan",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
     {
       "name": "TTC",
       "author": "Alex",
