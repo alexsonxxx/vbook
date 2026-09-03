@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "name": "Cơm Nguội Novel",
+    "author": "Alex",
+    "version": 6,
+    "source": "https://comnguoinovel.com",
+    "regexp": "comnguoinovel\\.com/truyen/[^/]+(/chuong/[^/]+)?/?$",
+    "description": "Đọc truyện dịch tiếng Việt trên comnguoinovel.com",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "encrypt": true,
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "EMAIL": {
+      "title": "Email đăng nhập (để đọc chương)",
+      "default": "",
+      "mode": "input",
+      "format": "text"
+    },
+    "PASSWORD": {
+      "title": "Mật khẩu đăng nhập (để đọc chương)",
+      "default": "",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}
