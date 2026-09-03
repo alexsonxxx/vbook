@@ -16,6 +16,17 @@
       "locale": "vi_VN"
     },
     {
+      "name": "Cơm Nguội Novel",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/alex_comnguoinovel/plugin.zip",
+      "version": 6,
+      "source": "https://comnguoinovel.com",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/alex_comnguoinovel/icon.png",
+      "description": "Đọc truyện dịch tiếng Việt trên comnguoinovel.com)",
+      "type": "novel",
+      "locale": "vi_VN"
+    },
+    {
       "name": "Youtube",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/youtube/plugin.zip",
