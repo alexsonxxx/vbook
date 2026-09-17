@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "name": "Tàng Thư Viện (ORG)",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://tangthuvien.org",
+    "description": "Đọc truyện dịch, tiên hiệp, huyền huyễn.",
+    "locale": "vi_VN",
+    "regexp": "https?:\\/\\/api\\.apptruyen\\.lol\\/(book|chapter)\\/[a-f0-9]+",
+    "type": "novel",
+    "nsfw": false,
+    "encrypt": true,
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "page": "page.js"
+  },
+  "config": {}
+}
