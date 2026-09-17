@@ -16,6 +16,17 @@
       "locale": "vi_VN"
     },
     {
+      "name": "Tàng Thư Viện (ORG)",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/tangthuvien/plugin.zip",
+      "version": 1,
+      "source": "https://tangthuvien.org",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/tangthuvien/icon.png",
+      "description": "Đọc truyện dịch, tiên hiệp, huyền huyễn.)",
+      "type": "novel",
+      "locale": "vi_VN"
+    },
+    {
       "name": "Cơm Nguội Novel",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/alex_comnguoinovel/plugin.zip",
