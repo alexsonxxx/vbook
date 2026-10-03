@@ -137,7 +137,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "trxs",
+      "name": "trxs.cc",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/trxs/plugin.zip",
       "version": 1,
