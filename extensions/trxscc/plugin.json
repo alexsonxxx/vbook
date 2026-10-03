@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "name": "trxs",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://trxs.cc",
+    "regexp": "trxs\\.cc/tongren/\\d+\\.html",
+    "description": "Đọc truyện đồng nhân (fan fiction) trên trxs.cc - 同人小说网.\n\nDanh sách: 同人小说 / 全本同人 / 连载同人 / 高分榜单.\n\nLưu ý: trang chủ dùng Cloudflare nhưng fetch trên thiết bị vẫn OK. Tìm kiếm cần WebView (site lưu DB bằng GBK) và site giới hạn 1 lần tìm kiếm / 60 giây.\n\nNếu domain bị chặn, đổi sang domain mới ở phần cấu hình.",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "base_url": {
+      "title": "Domain (mặc định https://trxs.cc)",
+      "mode": "input",
+      "format": "text",
+      "default": "https://trxs.cc"
+    }
+  }
+}
