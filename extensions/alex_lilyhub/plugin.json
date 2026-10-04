@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "name": "LilyHub",
+    "author": "Alex",
+    "version": 3,
+    "source": "https://www.lilyhub.top/",
+    "description": "Đọc truyện Bách Hợp trên LilyHub - Những câu chuyện đáng thức đêm để đọc.",
+    "locale": "vi_VN",
+    "regexp": "www\\.lilyhub\\.top/truyen/[0-9a-fA-F-]+",
+    "type": "novel",
+    "nsfw": false,
+    "encrypt": false,
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "gen": "gen.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
