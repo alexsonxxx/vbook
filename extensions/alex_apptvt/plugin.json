@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "name": "[APP] TYT",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://tytnovel.info/",
+    "description": "Đọc Và Nghe Truyện từ TYT",
+    "locale": "vi_VN",
+    "regexp": "https?://api\\.noveltyt\\.app/(stories/[a-f0-9]+|chapters/[a-f0-9]+/\\d+)",
+    "type": "novel",
+    "nsfw": false,
+    "encrypt": false,
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
