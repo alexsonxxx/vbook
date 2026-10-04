@@ -11,7 +11,7 @@
       "version": 1,
       "source": "https://gemini.google.com",
       "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/Gemini%20Translate/icon.png",
-      "description": "Dịch văn bản bằng Google Gemini API với nhiều key, prompt, tùy chỉnh theo thể loại. Bộ nhớ chương ghi nhớ MA TRẬN XƯNG HÔ + 5 NHÓM TÊN theo từng cuốn, tự đẩy tên vào bảng 'sửa từ' của sách (localBook) để VBook thay tự động ở mọi chương sau.\nHDSD:\n1. Lấy API Key Gemini tại https://aistudio.google.com/apikey\n2. Nhập API Key vào mục cấu hình, mỗi key một dòng (xoay vòng tự động, key hết hạn mức bị loại tới 14:00 hôm sau).\n3. Bật 'Nhớ tên riêng/thuật ngữ theo từng cuốn' để dùng bộ nhớ. Tắt được từng nhóm: 1) Tên nhân vật 2) Tên địa danh 3) Tên thuật ngữ 4) Tên động vật 5) Tên thực vật.\n4. Chọn prompt thể loại ở dropdown đích: Đô Thị, Huyền Huyễn, Khoa Huyễn, Fantasy, Ngôn Tình. Thêm prompt riêng bằng cách ghi tên (mỗi dòng 1 tên) vào mục '[Prompt] Danh sách tên prompt'.\n5. Thêm / sửa / xoá tên thủ công trong app ở màn 'Quản lý sửa từ'. Đã xoá ở đó thì addon KHÔNG đẩy lại tên đó ở chương sau nữa.",
+      "description": "Dịch văn bản bằng Google Gemini API với nhiều key, prompt, tùy chỉnh theo thể loại. Bộ nhớ chương ghi nhớ MA TRẬN XƯNG HÔ.",
       "type": "translate",
       "locale": "vi_VN"
     },
