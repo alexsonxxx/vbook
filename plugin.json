@@ -38,6 +38,18 @@
       "locale": "vi_VN"
     },
     {
+      "name": "Dammy.cc",
+      "author": "Alex",
+      "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/alex_dammy_cc/plugin.zip",
+      "version": 1,
+      "source": "https://dammy.cc",
+      "icon": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/alex_dammy_cc/icon.png",
+      "description": "Đọc truyện đam mỹ, ngôn tình hot nhất tại dammy.cc.",
+      "type": "novel",
+      "locale": "vi_VN"
+      "tag": "18+"
+    },
+    {
       "name": "LilyHub",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/alexsonxxx/vbook/main/extensions/alex_lilyhub/plugin.zip",
