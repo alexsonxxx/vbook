@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "Dammy.cc",
+    "author": "Alex",
+    "version": 1,
+    "source": "https://dammy.cc",
+    "description": "Đọc truyện đam mỹ, ngôn tình hot nhất tại dammy.cc",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel",
+    "nsfw": true,
+    "regexp": "dammy\\.cc/[a-z0-9-]+\\.html/?$"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "gen": "gen.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "subtitle": "Đổi domain nếu dammy.cc bị chặn (ví dụ: https://dammy.me)",
+      "default": "https://dammy.cc",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}
